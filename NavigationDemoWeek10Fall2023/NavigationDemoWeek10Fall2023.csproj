@@ -1,0 +1,52 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="assets\background.jpg" />
+    <None Remove="assets\caveman.png" />
+    <None Remove="assets\cavern.png" />
+    <None Remove="assets\chestofgold.png" />
+    <None Remove="assets\coin.jpg" />
+    <None Remove="assets\crown.png" />
+    <None Remove="assets\google.png" />
+    <None Remove="assets\indianajones.png" />
+    <None Remove="assets\lauracraft.png" />
+    <None Remove="assets\maze.png" />
+    <None Remove="assets\Microsoft.png" />
+    <None Remove="assets\Minotaur.jpg" />
+    <None Remove="assets\pharaoh.png" />
+    <None Remove="assets\preciousruby.png" />
+    <None Remove="assets\silk.jpg" />
+    <None Remove="assets\skull.png" />
+    <None Remove="assets\spider.png" />
+    <None Remove="assets\talkingtree.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="assets\background.jpg" />
+    <Resource Include="assets\caveman.png" />
+    <Resource Include="assets\cavern.png" />
+    <Resource Include="assets\coin.jpg" />
+    <Resource Include="assets\crown.png" />
+    <Resource Include="assets\chestofgold.png" />
+    <Resource Include="assets\google.png" />
+    <Resource Include="assets\indianajones.png" />
+    <Resource Include="assets\lauracraft.png" />
+    <Resource Include="assets\maze.png" />
+    <Resource Include="assets\Microsoft.png" />
+    <Resource Include="assets\Minotaur.jpg" />
+    <Resource Include="assets\pharaoh.png" />
+    <Resource Include="assets\preciousruby.png" />
+    <Resource Include="assets\silk.jpg" />
+    <Resource Include="assets\skull.png" />
+    <Resource Include="assets\spider.png" />
+    <Resource Include="assets\talkingtree.png" />
+  </ItemGroup>
+
+</Project>
