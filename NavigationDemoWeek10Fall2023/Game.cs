@@ -8,6 +8,7 @@ namespace NavigationDemoWeek10Fall2023
 {
     public class Game
     {
+        //Player name is stored here
         public string PlayerName { get; set; }
 
         public string PlayerAvatarPath { get; set; }
